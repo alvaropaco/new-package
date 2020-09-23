@@ -1,3 +1,5 @@
-export default () => {
-    return 'Hello World'
+const hello = () => {
+    return 'Hello World';
 }
+
+module.exports = hello()

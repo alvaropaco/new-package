@@ -4,11 +4,19 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alvaropaco/new-package.git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@alvaropaco"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }
