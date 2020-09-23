@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "npm publish"
   },
   "author": "",
   "license": "ISC",
@@ -20,3 +21,4 @@
     "jest": "^26.4.2"
   }
 }
+7a93783d93529544abac5d7d91d2fb1fb4ecdb2c
